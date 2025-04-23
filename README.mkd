@@ -5,7 +5,7 @@
 
 # crear venv
 ```bash
-    python -m venv agente_basico_venv
+    python -m venv rag_apps_venv
 ```
 
 # ejecutar venv
