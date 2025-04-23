@@ -1,0 +1,36 @@
+# clonar el repositorio
+```bash
+    git clone https://github.com/alejojav/Agente-Basico.git
+
+# crear venv
+```bash
+    python -m venv agente_basico_venv
+```
+
+# ejecutar venv
+# windows
+``` bash
+    .venv\Scripts\activate
+```
+## linux:
+``` bash
+    source .venv/bin/activate
+```
+
+# instalar requierimientos
+```bash
+pip install -r requirements.txt
+```
+
+# ejecutar fastapi
+``` bash
+    fastapi dev
+```    
+
+
+
+# requerimientos (solo para mi uso - instalar por requirements.txt)
+## pip install "fastapi[standard]"
+## pip install langchain langchain_core langchain-cohere langchain-community langchain-experimental langsmith
+## pip install langgraph
+## pip install -qU "langchain-community>=0.2.11" tavily-python
