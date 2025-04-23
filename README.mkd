@@ -1,6 +1,7 @@
 # clonar el repositorio
 ```bash
-    git clone https://github.com/alejojav/Agente-Basico.git
+    git clone https://github.com/alejojav/Rag-App.git
+```
 
 # crear venv
 ```bash
@@ -26,11 +27,3 @@ pip install -r requirements.txt
 ``` bash
     fastapi dev
 ```    
-
-
-
-# requerimientos (solo para mi uso - instalar por requirements.txt)
-## pip install "fastapi[standard]"
-## pip install langchain langchain_core langchain-cohere langchain-community langchain-experimental langsmith
-## pip install langgraph
-## pip install -qU "langchain-community>=0.2.11" tavily-python
